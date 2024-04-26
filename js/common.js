@@ -31,7 +31,7 @@ if (sessionStorage.getItem('loading') == 'load') {
 			setTimeout(() => {
 				topSlider.autoplay.start();
 				document.querySelector('.progress__line').classList.add('animate')
-			}, 0);
+			}, 100);
 		})
 	}, 2000)
 } else {
@@ -76,7 +76,7 @@ if (sessionStorage.getItem('loading') == 'load') {
 			setTimeout(() => {
 				topSlider.autoplay.start();
 				document.querySelector('.progress__line').classList.add('animate')
-			}, 0);
+			}, 100);
 		})
 	}, 6000)
 	sessionStorage.setItem('loading', 'load')
