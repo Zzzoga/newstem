@@ -431,6 +431,7 @@ a.market__link:hover {
     justify-content: center;
     background-position: center;
     position: relative;
+    cursor: grab;
 }
 
 .bottom__info {
@@ -564,6 +565,7 @@ a.arrow {
     position: absolute;
     z-index: 9;
     gap: 432px;
+    cursor: grab;
 }
 
 .slider__container.swiper {
